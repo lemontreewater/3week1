@@ -1,0 +1,306 @@
+body {
+    background-color: #f4f3f1;
+    margin: 0;
+    font-family: ".HelveticaNeueDeskInterface-Regular";
+}
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+.gray-layer {
+    background-color: rgba(86,100,115,0.7);
+    height: inherit;
+}
+
+#head-part {
+    height: 500px;
+    background: url("../im/head_bg.jpg") ;
+    background-size: 100% 100% ;
+}
+
+#head-nav {
+    padding-top: 30px;
+}
+
+#logo {
+    height: 30px;
+}
+
+#head-button {
+    float: right;
+}
+
+#head-button a {
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+#head-button button {
+    color: white;
+    font-size: 15px;
+    border: solid 1px white;
+    border-radius: 3px;
+    background: transparent;
+    padding: 5px 15px 7px 15px;
+}
+
+#head-search {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: gray;
+    text-align: center;
+}
+
+#head-search p {
+    color: #dadbdb;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#head-search form {
+    padding-left: 20px;
+}
+
+.choose-text {
+    display: inline-block;
+    width: 80%;
+}
+
+#choose-list {
+    padding-top: 50px;
+}
+
+#choose-list li {
+    float: left;
+    display: inline;
+    width: 50%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#choose-list a {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 100px;
+    clear: both;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    display: block;
+}
+
+h3 { 
+    text-align: center;
+   
+}
+
+h4{ 
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+
+p{
+    color:gray; 
+   display: block;
+}
+
+
+
+.bottom-line {
+    border-bottom: solid 1px #dcdcdd;
+    border-top: solid 1px #f8f8f6;
+    padding-bottom: 50px;
+}
+
+.little-box{
+    display: block;
+    height: 1px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border: solid 1px lightgray;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    height: 30px;
+    line-height: 30px;
+}
+
+#work-list {
+    padding-top: 90px;
+}
+
+#work-list li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#work-list li div{
+    display: inline;
+}
+
+#work-list p {
+    padding: 0 30px;
+}
+
+
+.wim {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #60677a;
+}
+
+.mid {
+     width: 35px;
+    padding-right: 40px;
+    float: left;
+
+}
+.thr {
+    padding-bottom: 50px;
+    display: inline;
+    float: left;
+    text-align:center;
+    width: 50%
+}
+
+.foo {
+    display: inline-block;
+    width: 80%;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+#web-link {
+    display: inline;
+}
+
+#foot-search {
+    height: 231px;
+    background: url("../im/foot-background.jpeg");
+}
+
+#foot-search form {
+    padding-top: 90px;
+    text-align: center;
+}
+
+#foot-search label {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+footer li {
+    display: inline;
+    padding: 10px;
+    color: black;
+}
+
+footer ul {
+    display: inline;
+    font-size: 14px;
+}
+
+footer img {
+    height: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+}
+
+.qaz {
+    width: 100px;
+    height: 100px;
+}
+
+#speech-box {
+    padding-top: 80px;
+    padding-left: 0;
+    width: 400px;
+    margin: auto;
+}
+
+#speech-box li {
+    display: inline-block;
+    padding: 20px;
+    border: solid 1px #60677a;
+    width: 150px;
+    text-align: center;
+}
+
+#speech-box li:first-child {
+    color: white;
+    background-color: #60677a;
+}
+#speech-box li:last-child {
+    color: #60677a;
+}
+
+#quot {
+    font-size: 30px;
+}
+
+#speech {
+    text-align: center;
+}
+
+.people-image {
+    width: 100px;
+    height: 100px;
+}
+
+#speech-people ul {
+    padding-left: 0;
+}
+
+#speech-people li {
+    display: inline;
+}
+
+#speech-people img {
+    padding: 5px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+#speech-people li:nth-child(2) img {
+    background-color: white;
+    border: solid 2px #dadbdb;
+}
+
